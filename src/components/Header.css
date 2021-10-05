@@ -1,0 +1,26 @@
+header {
+  align-items: center;
+  background-color: rgb(132, 202, 52);
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 0 20px;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.userInfo {
+  align-items: center;
+  display: flex;
+}
+
+.userName {
+  margin-left: 15px;
+}
+
+.avatar {
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+}
