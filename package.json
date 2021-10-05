@@ -1,11 +1,13 @@
 {
   "name": "trivia-test",
+  "homepage": "https://leo606.github.io/project-trivia-react-redux-trybe/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/user-event": "^7.1.2",
     "crypto-js": "^4.0.0",
+    "gh-pages": "^3.2.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-redux": "^7.2.0",
@@ -19,6 +21,8 @@
     "cy": "cypress run",
     "cy:open": "cypress open",
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -r git@github.com:leo606/project-trivia-react-redux-trybe.git -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:watch": "react-scripts test --watchAll",
